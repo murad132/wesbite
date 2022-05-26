@@ -1,0 +1,71 @@
+h2{
+    color:#ffffff;
+    margin: 20px;
+    padding:10px;
+    
+}
+*{
+    border: solid;
+}
+.header{
+    background-color: #00ffeedb;
+    display:flex;
+    justify-content:space-between;
+
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    text-align: center;
+    font-family: cursive;
+    color:#000000;
+    font-size: 20px;
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+
+body{
+    background-color: #808080;
+}
+.game{
+    padding:10px;
+    position:relative
+}
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+}
+
+.game:hover p{
+    opacity: 1;
+}
+
+.game:hover img{
+    opacity: 0.4;
+}
+
+.menu{
+    margin-right:30px;
+    
+}
+.menu a{
+    margin-left: 20px;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:orange
+}
